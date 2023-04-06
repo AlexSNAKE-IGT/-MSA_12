@@ -1,5 +1,5 @@
 from fastapi import FastAPI, HTTPException
-from data.books import Book, CreateBook
+from books import Book, CreateBook
 
 books_app = FastAPI()
 
